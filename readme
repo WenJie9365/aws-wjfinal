@@ -6,7 +6,7 @@
 sudo yum update -y
 sudo yum install git -y
 git clone https://github.com/WenJie9365/aws-wjfinal.git
-cd aws-live
+cd aws-wjfinal
 sudo yum install python-pip -y
 sudo pip3 install flask pymysql boto3
 sudo python3 EmpApp.py
